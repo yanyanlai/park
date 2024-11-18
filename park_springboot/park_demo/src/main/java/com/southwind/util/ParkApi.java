@@ -19,7 +19,7 @@ public class ParkApi {
         try{
             // 实例化一个认证对象，入参需要传入腾讯云账户 SecretId 和 SecretKey
             //"AKIDxiEVXM2HNnkUzFsKDwl174oKgnfLD66r","e7MMGCGIDzYvBDQSFo8D3QYXJq812345"
-            Credential cred = new Credential();
+            //Credential cred = new Credential();
             // 实例化一个http选项
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint("ocr.tencentcloudapi.com");
